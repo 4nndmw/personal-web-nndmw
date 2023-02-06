@@ -18,6 +18,7 @@ a {
     text-decoration: none;
 }
 .containerr {
+  /* position: absolute; */
     max-width: 1224px;
     width: 90%;
     margin: 0 auto;
@@ -43,15 +44,22 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    /* position: absolute; */
+
 }
 .nav-link {
+  /* position: absolute; */
+
     transition: 0.3s ease-out;
 }
 .nav-link:hover {
     color: rgb(238, 58, 26);
+    /* position: absolute; */
+
 }
 .nav-item {
     transition: all 0.5s ease 0s;
+    
 }
   
   .nav-item:hover {
@@ -96,6 +104,7 @@ a {
     height: 90px;
     line-height: 90px;
     overflow: hidden;
+  
   }
   .dynamic-text li {
     list-style: none;
@@ -520,6 +529,14 @@ a {
     font-size: 2rem;
   }
 @media only screen and (max-width: 572px) {
+  .QQ {
+    background-color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+  }
   .img2 {
     width: 500px;
     display: flex;
@@ -648,6 +665,9 @@ a {
 }
 
 @media only screen and (max-width: 900px) {
+  .ohha{
+    color: #eaeaea;
+  }
   .container-content{
     width: 100%;
     display: flex;
@@ -920,6 +940,9 @@ border-radius: 10px;
 }
   
 @media screen and (max-width: 572px) {
+  .ohha a{
+    color: #eaeaea;
+  }
   .icon {
     color: #eaeaea;
     width: 50%;
@@ -987,8 +1010,9 @@ padding: 0 16px;
   }
   
 @media screen and (max-width: 572px) {
+
   .dd{
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
   .li,
   a {
