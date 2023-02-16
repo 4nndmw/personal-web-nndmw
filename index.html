@@ -7,6 +7,7 @@
     <title>Portofolio NndMw</title>
     <link rel="stylesheet" href="assets/home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -63,20 +64,20 @@
     <div class="cwv">
         <img class="wave" src="images/wave.png" alt="" />
     </div>
-    <h1 class="abtm" id="about">ABOUT</h1>
+    <h1 class="abtm" id="about" >ABOUT</h1>
 
     <div class="abt">
-        <div class="img2">
+        <div class="img2" data-aos="fade-right">
             <img class="heross" src="images/pakk.jpg" alt="" />
         </div>
 
-        <div class="p1">
-            <div class="p2">
+        <div class="p1" data-aos="fade-left">
+            <div class="p2" data-aos="fade-left">
                 <h1>
                     <u>Halo Sahabat</u><span class="cdd"><i><u> "Coding"</u></i></span>
                 </h1>
             </div>
-            <div style="background-color: #eaeaea;">
+            <div style="background-color: #eaeaea;" data-aos="fade-left">
                 <p>
                     Saya adalah orang yang mudah bersosialisasi dan senang bertemu orang
                     baru. Bekerja bersama orang baru memberikan tantangan baru yang
@@ -92,14 +93,14 @@
     </div>
     <div class="QQ">
         <ul class="QQ1">
-            <li class="QQ2"><a href="about.html">ABOUT ME</a></li>
-            <li class="QQ3"><a href="galery.html">GALERY</a></li>
-            <li class="QQ4"><a href="partner.html">PARTNER</a></li>
+            <li class="QQ2" data-aos="flip-left"><a href="about.html">ABOUT ME</a></li>
+            <li class="QQ3" data-aos="flip-up"><a href="galery.html">GALERY</a></li>
+            <li class="QQ4" data-aos="flip-right"><a href="partner.html">PARTNER</a></li>
         </ul>
     </div>
 
-    <div class="list-med">
-        <ul class="list-medf">
+    <div class="list-med" >
+        <ul class="list-medf" data-aos="zoom-out-up">
             <li>
                 <h1 id="galery">MEMBER</h1>
             </li>
@@ -108,7 +109,7 @@
     <!-- Slider main container -->
     
 <div class="rows">
-  <div class="columns">
+  <div class="columns" data-aos="fade-right">
     <div class="cards">
       <img src="images/alep.jpg" class="oo" alt="Jane">
       <div class="containers">
@@ -120,7 +121,7 @@
   </div>
 
   <div class="columns">
-    <div class="cards">
+    <div class="cards" data-aos="zoom-in">
       <img src="images/wahyudi.jpg" class="oo" alt="Mike">
       <div class="containers">
         <h2>Ananda Maulana Wahyudi</h2>
@@ -131,7 +132,7 @@
   </div>
 
   <div class="columns">
-    <div class="cards">
+    <div class="cards" data-aos="fade-left">
       <img src="images/subhan.jpg" class="oo" alt="John">
       <div class="containers">
         <h2>Subhan Fauzan</h2>
@@ -147,14 +148,14 @@
     <!-- ================== lisd ACTIVITY ===================  -->
   <div class="body-contact">
     <div class="contact-title">
-        <h1 id="contact">Get contact</h1>
-        <h2>we are always ready to serve you!</h2>
-        <div class="cantact-from">
+        <h1 id="contact" data-aos="zoom-out-up">Get contact</h1>
+        <h2 data-aos="zoom-out-up">we are always ready to serve you!</h2>
+        <div class="cantact-from" data-aos="zoom-out-up">
             <form id="contact-form" action="https://formspree.io/f/xrgveaaw" method="POST">
                 <input name="full-name" class="form-control" type="text" placeholder="your name" id="full-name" autocomplete="off" required ><br>
                 <input name="email" class="form-control" type="email" placeholder="your mail" id="email" autocomplete="off" required ><br>
                 <textarea name="message" class="form-control" placeholder="Messege" rows="4" id="message" autocomplete="off" required ></textarea><br>
-                <button type="submit" class="form-control submit"> Send </button>
+                <button type="submit" class="form-control submit" data-aos="zoom-out-up"> Send </button>
             </form>
         </div>
     </div>
@@ -185,7 +186,10 @@
     </div>
     <h1 class="dd">@2023 No Copyright All Rights Reserved</h1>
 </footer>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 <script src="assets/script/script.js"></script>
 </body>
 
